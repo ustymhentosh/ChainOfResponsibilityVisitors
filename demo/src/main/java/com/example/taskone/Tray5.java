@@ -1,4 +1,4 @@
-package com.example.task1;
+package com.example.taskone;
 
 public class Tray5 extends Tray {
     public Tray5(){

@@ -1,4 +1,4 @@
-package com.example.task1;
+package com.example.taskone;
 
 public class ATM {
     private Tray firstTray;

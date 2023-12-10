@@ -1,4 +1,4 @@
-package com.example.task2;
+package com.example.tasktwo;
 
 public class Main {
     public static void main(String[] args) {

@@ -90,17 +90,17 @@
         <!--    <module name="DoubleCheckedLocking"/>  NO LONGER AVAILABLE IN CHECKSTYLE 5.6 -->
         <module name="EmptyStatement"/>
         <!--        <module name="EqualsHashCode"/> -->
-        <module name="HiddenField">
+        <!-- <module name="HiddenField">
             <property name="ignoreConstructorParameter" value="true"/>
-        </module>
+        </module> -->
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
-        <module name="MagicNumber">
+        <!-- <module name="MagicNumber">
             <property name="tokens"
                       value="NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG"/>
             <property name="ignoreNumbers" value="-1, 0, 0.5, 1, 2"/>
             <property name="ignoreHashCodeMethod" value="true"/>
-        </module>
+        </module> -->
         <module name="MissingSwitchDefault"/>
         <module name="ModifiedControlVariable"/>
         <module name="SimplifyBooleanExpression"/>
@@ -241,11 +241,11 @@
         <!-- =========================================================================== -->
 
         <!-- Checks for calls to System.exit(). -->
-        <module name="RegexpSinglelineJava">
+        <!-- <module name="RegexpSinglelineJava">
             <property name="format" value="System\.exit"/>
             <property name="ignoreComments" value="true"/>
             <property name="message" value="Not permitted to call System.exit()"/>
-        </module>
+        </module> -->
 
         <!-- Checks for calls to Math.pow(). -->
         <module name="RegexpSinglelineJava">

@@ -1,4 +1,4 @@
-package com.example.task2;
+package com.example.tasktwo;
 
 import java.util.HashMap;
 import java.util.Map;
