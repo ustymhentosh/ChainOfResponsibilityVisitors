@@ -20,7 +20,7 @@ public abstract class Tray {
             System.err.println("Bad number entered");
             System.exit(0);
         }
-        System.out.println("You sholuld take " + 
-                amount / denomination + " of denomination " + denomination);
+        System.out.println("You sholuld take "
+             + amount / denomination + " of denomination " + denomination);
     }
 }

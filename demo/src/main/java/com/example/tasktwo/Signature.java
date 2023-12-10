@@ -3,7 +3,7 @@ package com.example.tasktwo;
 import java.util.function.Consumer;
 
 public class Signature<T> extends Task<T> {
-    public Consumer<T> consumer;
+    private Consumer<T> consumer;
     public Signature(Consumer<T> consumer) {
         this.consumer = consumer;
     }
@@ -14,7 +14,7 @@ public class Signature<T> extends Task<T> {
         consumer.accept(arg);
     }
 
-    public void onSignature(){
+    public void onSignature() {
         System.err.println("Calling signature: " + this.getId());
     }
 }
