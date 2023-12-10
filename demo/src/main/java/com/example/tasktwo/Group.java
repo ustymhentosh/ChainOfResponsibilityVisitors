@@ -38,10 +38,12 @@ public class Group<T> extends Task<T> {
     }
 
     public void onGroupStart() {
+        this.setHeader("Starting", groupUuid);
         System.err.println("Starting group: " + this.groupUuid);
     }
 
     public void onGroupEnd() {
+        this.setHeader("Ending", groupUuid);
         System.err.println("Ending group: " + this.groupUuid);
     }
 

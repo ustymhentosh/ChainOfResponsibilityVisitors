@@ -15,6 +15,7 @@ public class Signature<T> extends Task<T> {
     }
 
     public void onSignature() {
+        this.setHeader("Singature", this.getId());
         System.err.println("Calling signature: " + this.getId());
     }
 }
