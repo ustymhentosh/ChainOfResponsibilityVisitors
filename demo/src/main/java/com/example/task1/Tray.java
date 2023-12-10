@@ -1,4 +1,4 @@
-package com.example.task_1;
+package com.example.task1;
 
 public abstract class Tray {
     private int denomination;
@@ -18,8 +18,9 @@ public abstract class Tray {
             next.process(amount % denomination);
         } else if (amount % denomination > 0) {
             System.err.println("Bad number entered");
-            System. exit(0);
+            System.exit(0);
         }
-        System.out.println("You sholuld take " + amount / denomination + " of denomination " + denomination);
+        System.out.println("You sholuld take " + 
+                amount / denomination + " of denomination " + denomination);
     }
 }

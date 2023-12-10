@@ -1,11 +1,11 @@
-package com.example.task_1;
+package com.example.task1;
 
 public class ATM {
-    public Tray firstTray;
+    private Tray firstTray;
     private int cashQuantity;
 
     public ATM() {
-        this.cashQuantity = 2147483647;
+        this.cashQuantity = Integer.MAX_VALUE;
         firstTray = new Tray500().setNext(new Tray200().setNext(
                             new Tray20().setNext(new Tray5())));
     }

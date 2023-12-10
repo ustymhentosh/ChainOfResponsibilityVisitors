@@ -1,4 +1,4 @@
-package com.example.task_2;
+package com.example.task2;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class Group<T> extends Task<T> {
-    public String groupUuid;
+    private String groupUuid;
     private List<Task<T>> tasks;
 
     public Group<T> addTask(Task<T> task) {
